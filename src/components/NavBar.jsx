@@ -21,6 +21,9 @@ export const NavBar = () => (
         <Nav.Link to="/category/Descuentos" as={NavLink}>
           Descuentos
         </Nav.Link>
+        <Nav.Link to="/cart" as={NavLink}>
+          Carro compras
+        </Nav.Link>
       </Nav>
 
       <div>
